@@ -1,5 +1,6 @@
 # pull official base image
 FROM python:3.8.3-alpine
+ENV TZ="Europe/Amsterdam"
 
 # set work directory
 WORKDIR /usr/src/app
